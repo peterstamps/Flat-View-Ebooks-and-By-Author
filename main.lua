@@ -303,7 +303,7 @@ function add_ebooks_to_collection(files, collection_name)
 end
 
 function AllMyeBooks:onDispatcherRegisterActions()
-    Dispatcher:registerAction("AllMyeBooks_action", {category="none", event="AllMyeBooks", title=_("Create Collections 'All eBooks' and by Author"), general=true,})
+    Dispatcher:registerAction("AllMyeBooks_action", {category="none", event="AllMyeBooks", title=_("Create Collection 'All eBooks'"), general=true,})
 end
 
 function AllMyeBooks:init()
