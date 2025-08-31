@@ -315,7 +315,7 @@ end
 function AllMyeBooks:addToMainMenu(menu_items)
     menu_items.AllMyeBooks = {
         text = _("Create Collections"),
-        -- sorting_hint = "more_tools",
+        sorting_hint = "filemanager_settings",        
         sub_item_table = {
             {   text = _("Create collection 'All eBooks'"),
                 keep_menu_open = false,
@@ -410,3 +410,4 @@ function AllMyeBooks:onAllMyeBooks()
 end
 
 return AllMyeBooks
+
